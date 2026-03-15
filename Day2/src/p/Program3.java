@@ -2,7 +2,7 @@ package p;
 
 
 
-public class p1 {
+public class Program3 {
 	String name ;
 	int id;
 	static String comp_name;
@@ -21,7 +21,7 @@ public class p1 {
 	
 	
 	public static void main(String[] args) {
-		p1 emp = new p1();
+		Program3 emp = new Program3();
 		emp.employData(comp_name, department);
 		System.out.println(emp.name);
 		System.out.println(emp.id);

@@ -1,11 +1,11 @@
 package p;
 
-public class Compnay {
+public class Program2 {
 	String cname = "nescoo";
 	String aaddress = "Mumbae";
 	double salary = 100000;
 	
-	public Compnay( String cname, String saddress, double sal) {
+	public Program2( String cname, String saddress, double sal) {
 		this.cname = cname;
 		this.aaddress =  saddress;
 		this.salary = sal;
@@ -13,7 +13,7 @@ public class Compnay {
 	
 
 public static void main(String[] args) {
-	 Compnay compnay = new Compnay("abc", "dader", 5000);
+	 Program2 compnay = new Program2("abc", "dader", 5000);
 	 System.out.println(compnay.cname);
 	 System.out.println(compnay.aaddress);
 	 System.out.println(compnay.salary);

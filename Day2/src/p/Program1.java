@@ -1,13 +1,13 @@
 package p;
 
-class Accountant {
+class Program1 {
 	public void calSal( double salary, double bonus ) {
 		System.out.println("salary: "+  salary);
 	}
 
 }
 
-class Emp extends Accountant{
+class Emp extends Program1{
 	public void calSal(double salary, double bonus) {
 		System.out.println("Emnpleyee : "+(salary + bonus));
 		
@@ -15,7 +15,7 @@ class Emp extends Accountant{
 }
 
 
- class Manager extends  Accountant{
+ class Manager extends  Program1{
 	 private void calSal(double salary, double bonus, double tax) {
 		 System.out.println("Manager: "+ (salary+ bonus- tax));
 	}
@@ -25,7 +25,7 @@ class Emp extends Accountant{
 
 	
 	public static void main(String[] args) {
-		Accountant accountant = new Accountant();
+		Program1 accountant = new Program1();
 		Emp emp = new Emp();
 		Manager manager = new  Manager();
 		accountant.calSal(500, 100);
