@@ -23,7 +23,7 @@ class Emp extends Accounts {
 	
 	
 }
-public class Main {
+public class Program2 {
 	public static void main(String[] args) {
 		 Emp emp = new Emp();
 		 Accounts accounts = new Accounts();
