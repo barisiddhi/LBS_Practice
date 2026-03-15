@@ -27,7 +27,7 @@ public class Main {
 	public static void main(String[] args) {
 		 Emp emp = new Emp();
 		 Accounts accounts = new Accounts();
-	accounts.calSal(5000000, 10000);
+	accounts.calSal(50000, 10000);
 	emp.calSal(300000);
 		
 	}

@@ -16,8 +16,9 @@ public static void main(String[] args) {
 Program1 main = new Program1();
 	System.out.println(main.id);
 	System.out.println(main.name);
+	System.out.println(Program1.address);
 	System.out.println(Program1.department);
 	System.out.println(Program1.cname);
-	System.out.println(Program1.address);
+
 }
 }
